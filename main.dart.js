@@ -44181,7 +44181,7 @@ r.bv$=new B.a1e(H.a([],t.BQ))
 if(s.a==null)s.a=r
 else H.b(H.dw("_dio"))
 r=s.gip()
-r.gwA(r).d8$="http://157.245.158.217:6969"
+r.gwA(r).d8$="http://localhost:6969"
 r=s.gip()
 r.gwA(r).gfc().k(0,"API-Version","v2")
 r=s.gip()
@@ -44627,7 +44627,7 @@ return T.m5(P.a5(["playbookId",this.a,"content",this.b,"messageType",s],r,q),r,q
 M.ajy.prototype={
 gjd(){var s=this.a
 return s==null?H.b(H.d("_socket")):s},
-qJ(){var s,r,q,p,o,n,m,l,k=this,j="ws://157.245.158.217:6969",i="forceNew",h="query",g="reconnection",f=t.N,e=new B.ih().t8(0,"token",f)
+qJ(){var s,r,q,p,o,n,m,l,k=this,j="ws://localhost:6969",i="forceNew",h="query",g="reconnection",f=t.N,e=new B.ih().t8(0,"token",f)
 if(e==null||k.b)return
 s=P.a5(["token",e],f,f)
 f=P.w(f,t.z)
@@ -44644,7 +44644,7 @@ p=r.gcX(r)
 o=$.azL.ae(0,q)&&$.azL.h(0,q).c.ae(0,p)
 n=J.j(f.h(0,i),!0)||J.j(f.h(0,"force new connection"),!0)||!1===f.h(0,"multiplex")||o
 m=H.ba("io")
-if(n){$.aOQ().b7(C.v,"ignoring socket cache for ws://157.245.158.217:6969",null,null)
+if(n){$.aOQ().b7(C.v,"ignoring socket cache for ws://localhost:6969",null,null)
 m.b=Q.aIq(f,j)}else{l=$.azL.h(0,q)
 if(l==null){l=Q.aIq(f,j)
 $.azL.k(0,q,l)}m.b=l}if(r.gkK(r).length!==0&&f.h(0,h)==null)f.k(0,h,r.gkK(r))
